@@ -8,7 +8,7 @@ import google.generativeai as genai
 from google.api_core import exceptions # Important: Assurez-vous que cet import est présent
 
 # --- CONFIGURATION DE LA CLÉ API GEMINI ---
-VOTRE_CLE_GEMINI_API = "AIzaSyAe1RlVGEe5fvHbJrfHpNKUsfhBfMtu_uM" # <-- METTEZ VOTRE CLÉ API ICI
+VOTRE_CLE_GEMINI_API = "xxxx" # <-- METTEZ VOTRE CLÉ API ICI
 
 if not VOTRE_CLE_GEMINI_API or "AIzaSy" not in VOTRE_CLE_GEMINI_API:
     print("❌ ERREUR: Votre clé API Gemini semble incorrecte ou manquante.")
