@@ -2,7 +2,7 @@
 import google.generativeai as genai
 
 # Mettez votre clé API Gemini ici
-VOTRE_CLE_GEMINI_API = "AIzaSyAe1RlVGEe5fvHbJrfHpNKUsfhBfMtu_uM" # <-- METTEZ VOTRE CLÉ API
+VOTRE_CLE_GEMINI_API = "xxx" # <-- METTEZ VOTRE CLÉ API
 
 if "AIzaSy" not in VOTRE_CLE_GEMINI_API:
     print("❌ Veuillez insérer votre clé API Gemini dans le script.")
