@@ -1,0 +1,12 @@
+thonia_app/
+├── 1_simulate_data.py
+├── 2_train_model.py
+├── 3_app.py
+├── models/
+│   └── (ce dossier sera créé par le script 2)
+├── data/
+│   └── (ce dossier sera créé par le script 1)
+└── frontend/
+    ├── index.html
+    ├── style.css
+    └── script.js

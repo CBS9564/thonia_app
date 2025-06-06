@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThonIA - Assistant Pêche</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="map"></div>
+    <button id="geolocateBtn" title="Me géolocaliser">📍</button>
+
+    <div id="chat-container">
+        <!-- NOUVELLE ZONE D'AFFICHAGE DES MESSAGES -->
+        <div id="chat-display">
+            <div class="message bot">Bonjour ! Je suis ThonIA. Posez-moi une question sur la pêche du jour, comme "météo" ou "meilleure zone".</div>
+        </div>
+        <!-- FIN DE LA NOUVELLE ZONE -->
+        
+        <div id="chat-input-area">
+            <h1>🎣 ThonIA</h1>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Posez une question..." autocomplete="off">
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
